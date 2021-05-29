@@ -5,7 +5,7 @@ from pyramid.response import Response
 import signal
 import sqlite3
 from contextlib import closing
-dbname = 'ejdict.sqlite3'
+dbname = '../ejdict.sqlite3'
 
 
 def diary_world(request):
